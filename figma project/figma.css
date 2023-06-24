@@ -205,6 +205,7 @@ a.nav-link:hover{
 	border: 2px solid #673AB7;
 	border-radius: 5px;
 	width: 150px;
+	min-width: 120px;
 	aspect-ratio: 1/1.1;
 	/*height: 230px;*/
 	margin-left: 15px;
@@ -311,9 +312,22 @@ a.nav-link:hover{
 #grid-footer{
 	text-align: center;
 }
+#grid-footer p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #eee;
+	text-transform: capitalize;
+	line-height: 27px;
+	text-align: justify;
+	margin-left: 130px;
+}
 .footer-sec{
 	background-color: #673AB7;
+	/*height: 250px; */
 
+}
+#callus{
+	margin-right: 100px !important;
 }
 .for-clients{
 	font-size: 18px;
@@ -322,9 +336,24 @@ a.nav-link:hover{
 	line-height: 27px;
 	text-decoration: none;
 	text-transform: capitalize;
+	margin-left: 100px;
 }
 #for-clients{
-	margin-left: 95px !important;
+	margin-left: 13px !important;
+	margin-top: 0px !important;
+	margin-right: 20px !important;
+}
+#for-clients h3{
+	margin-left: 100px;
+}
+#for-clients2{
+	font-size: 18px;
+	font-weight: 400;
+	color: #eee;
+	line-height: 27px;
+	text-decoration: none;
+	text-transform: capitalize;
+	margin-left: 100px !important;
 }
 .for-clients:hover{
 	color: #eee !important;
@@ -540,7 +569,7 @@ a.nav-link:hover{
 /* post form */
 
 #postjob-margin{
-	margin-top: 190px !important;
+	margin-top: 110px !important;
 }
 .postbtn{
 	width: 150px;
@@ -647,6 +676,23 @@ a.nav-link:hover{
 }
 .forget-password{
 	border: 2px solid #673AB7 !important;
+}
+#already{
+	font-size: 18px;
+	font-weight: 500;
+	color: #eee;
+	text-transform: capitalize;
+
+}
+#go{
+	font-size: 18px;
+	font-weight: 500;
+	color: #eee;
+	margin-left: 5px;
+}
+#go::selection{
+	background-color: white;
+	color: #333;
 }
 
 
