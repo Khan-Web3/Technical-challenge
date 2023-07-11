@@ -15,7 +15,7 @@
 	line-height: 61.2px;
 }
 #team-main > div span{
-	color: #D479FF;
+	color: #0040ff;
 }
 .para-box{
 	max-width: 800px;
@@ -28,13 +28,42 @@
 	margin-left: 80px;
 }
 .card .card-body{
-	background-color: #D479FF;
+	background-color: #0040ff;
 	height: calc(100% - 80%) !important;
 	color: #fff;
 	transition: .5s ease-out;
 }
 .card:hover .card-body{
 	background-color: #47747E;
+}
+.card:hover .card-body > h4{
+	display: none !important;
+}
+.card:hover .card-body > .card-text{
+	display: none !important;
+}
+.card{
+	position: relative;
+}
+.card-hover{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 0;
+	background-color: #0040ff;
+	opacity: 0;
+	text-align: center;
+	transition: .5s all;
+	color: #fff;
+
+}
+.card:hover .card-hover{
+	opacity: 0.6 !important;
+	height: 100% !important;
+	cursor: pointer !important;
+
 }
 #footer{
 	padding-left: 20px !important;

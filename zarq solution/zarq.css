@@ -47,7 +47,7 @@ a.nav-link.text-capitalize{
 	font-size: 35px;
 	font-weight: 400;
 	line-height: 42.84px;
-	color: #D479FF;
+	color: #0040ff;
 	text-transform: capitalize;
 }
 #head-text span{
@@ -58,14 +58,14 @@ a.nav-link.text-capitalize{
 	color: #000;
 }
 #pink{
-	color: #D479FF !important;
+	color: #0040ff !important;
 	line-height: 61.2px;
 
 }
 #find-btn{
 	width: 203px;
 	height: 52px;
-	background-color: #D479FF;
+	background-color: #0040ff;
 	color: #fff;
 	text-transform: capitalize;
 	font-size: 20px;
@@ -102,7 +102,7 @@ a.nav-link.text-capitalize{
 	font-size: 35px;
 	font-weight: 400;
 	line-height: 42.84px;
-	color: #D479FF;
+	color: #0040ff;
 }
 .zaraq-para{
 	font-size: 50px;
@@ -149,7 +149,7 @@ a.nav-link.text-capitalize{
 #grid-box #image-box{
 	width: 120px !important;
 	height: 155px !important;
-	background-color: #D479FF;
+	background-color: #0040ff;
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
@@ -168,7 +168,7 @@ a.nav-link.text-capitalize{
 	background-position: center center;
 }
 .wedo{
-	color: #D479FF;
+	color: #0040ff;
 }
 .wedo-para{
 	text-align: justify;
@@ -183,7 +183,7 @@ a.nav-link.text-capitalize{
 	position: relative;
 	column-gap: 1rem !important;
 	margin-right: 1rem !important;
-	border: 14px solid #D479FF;
+	border: 14px solid #0040ff;
 	border-radius: 10px;
 	cursor: pointer;
 }
@@ -197,7 +197,7 @@ a.nav-link.text-capitalize{
 	bottom: 0;
 	opacity: 0;
 	transition: .5s all;
-	background-color: #D479FF;
+	background-color: #0040ff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -217,14 +217,14 @@ a.nav-link.text-capitalize{
 	padding: 12px;
 	font-size: 18px;
 	border-radius: 50%;
-	background-color: #D479FF !important;
+	background-color: #0040ff !important;
 }
 .slick-next:before{
 	left: -555px;
 	padding: 12px;
 	font-size: 18px;
 	border-radius: 50%;
-	background-color: #D479FF !important;
+	background-color: #0040ff !important;
 
 }
 /* grid 2 test*/
@@ -232,7 +232,7 @@ a.nav-link.text-capitalize{
 	background-color: #D9D9D9;
 }
 .our-work{
-	color: #D479FF;
+	color: #0040ff;
 	font-size: 50px;
 	font-weight: 400;
 	line-height: 60.95px;
@@ -307,27 +307,27 @@ a.nav-link.text-capitalize{
 	padding-right: 70px !important;
 }
 #footer .row .col-md-3 .container h3{
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 29.26px;
+	font-size: 24px  !important;
+	font-weight: 400 !important;
+	line-height: 29.26px !important;
 	color: #fff;
 	/*font-family: Montserrat !important;*/
 
 }
 #footer .row .col-md-3 .container a{
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 19.5px;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	line-height: 29.38px !important;
 	color: #fff;
-	font-family: Montserrat !important;
+	font-family: Roboto !important;
 
 }
 #footer .row .col-md-3 .container p{
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 19.5px;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	line-height: 19.58px !important;
 	color: #fff;
-	font-family: Montserrat !important;
+	font-family: Roboto !important;
 
 }
 .footer{
