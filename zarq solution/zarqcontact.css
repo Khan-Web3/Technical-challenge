@@ -27,7 +27,7 @@
 	line-height: 36.72px;
 }
 #contactbtn{
-	background-color: #0040ff;
+	background-color: var(--maroon);
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 30px;

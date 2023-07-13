@@ -15,7 +15,7 @@
 	line-height: 61.2px;
 }
 #team-main > div span{
-	color: #0040ff;
+	color: var(--maroon);
 }
 .para-box{
 	max-width: 800px;
@@ -28,7 +28,7 @@
 	margin-left: 80px;
 }
 .card .card-body{
-	background-color: #0040ff;
+	background-color: var(--maroon);
 	height: calc(100% - 80%) !important;
 	color: #fff;
 	transition: .5s ease-out;
@@ -52,7 +52,7 @@
 	display: block;
 	width: 100%;
 	height: 0;
-	background-color: #0040ff;
+	background-color: var(--maroon);
 	opacity: 0;
 	text-align: center;
 	transition: .5s all;
