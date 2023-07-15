@@ -15,8 +15,32 @@
 .about-para{
 	max-width: 800px;
 	font-size: 20px;
+	padding: 7px 10px;
+	position: relative;
+	border: 1px solid grey;
+	cursor: pointer;
+	border-radius: 5px;
 
 
+}
+.about-para2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	display: block;
+	opacity: 0;
+	background-color: var(--maroon);
+	transition: .9s all;
+
+}.about-para:hover{
+	color: white;
+}
+.about-para:hover .about-para2{
+	width: 100%;
+	opacity: 0.2;
+	color: white;
 }
 .about-text > h1{
 	font-size: 50px;
