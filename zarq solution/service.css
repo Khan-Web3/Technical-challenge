@@ -6,7 +6,7 @@
 	margin-top: 100px !important;
 }
 #service-grid > div p{
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 36.72px;
 }
@@ -41,9 +41,9 @@
 	background-color: #EEEEEE;
 }
 #grid-service{
-	grid-gap: 65px;
+	grid-gap: 35px;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 }
 #grid-service > div{
 	background-color: #fff;

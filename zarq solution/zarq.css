@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	text-transform: capitalize;
 	font-family: 'Raleway', sans-serif !important;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 }
 :root{
 	--maroon: #47747E;
@@ -14,6 +14,12 @@
 }
 nav.navbar.navbar-expand-md.bg-dark.navbar-dark{
 	background-color: #47747E !important;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	padding-left: 50px !important;
+	padding-right: 50px !important;
 }
 nav .navbar-brand{
 	font-size: 40px;
@@ -28,12 +34,16 @@ nav .navbar-brand span{
 }
 a.nav-link.text-capitalize{
 	font-size: 16px;
-	font-weight: 700;
-	line-height: 19.5px;
+	font-weight: 400;
+	line-height: 29.38px;
 	color: #FFFFFF !important;
+	display: block !important;
 	/*font-family: Montserrat !important;*/
 
 
+}
+a.nav-link.text-capitalize:hover{
+	font-weight: 700;
 }
 #hero{
 	/*height: calc(100vh - 25vh);*/
@@ -114,9 +124,9 @@ a.nav-link.text-capitalize{
 	line-height: 60.95px;
 }
 .zarq-desc{
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 29.26px;
+	font-size: 22px !important;
+	font-weight: 400 !important;
+	line-height: 29.26px !important;
 	text-align: justify;
 }
 #zarq-img{
@@ -138,7 +148,7 @@ a.nav-link.text-capitalize{
 	background: var(--grey);
 }
 .tech-text{
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 29.38px;
 	color: #000;
@@ -149,7 +159,7 @@ a.nav-link.text-capitalize{
 }
 #grid-box{
 	align-items: center !important;
-	justify-content: center !important;
+	justify-content: end !important;
 	grid-row-gap: -5px !important;
 	grid-column-gap: 20px !important;
 	text-align: center;
@@ -180,7 +190,10 @@ a.nav-link.text-capitalize{
 }
 .wedo-para{
 	text-align: justify;
-	padding-right: 75px !important;
+	font-size: 22px !important;
+	font-weight: 400 !important;
+	line-height: 29.26px;
+	padding-right: 20px !important;
 }
 .slide-items{
 	width: 300px;
@@ -221,14 +234,14 @@ a.nav-link.text-capitalize{
 	left: 0;
 }
 .slick-prev:before{
-	left: 550px;
+	left: 580px;
 	padding: 12px;
 	font-size: 18px;
 	border-radius: 50%;
 	background-color: var(--maroon) !important;
 }
 .slick-next:before{
-	left: -555px;
+	left: -585px;
 	padding: 12px;
 	font-size: 18px;
 	border-radius: 50%;
@@ -246,20 +259,23 @@ a.nav-link.text-capitalize{
 	line-height: 60.95px;
 }
 #fluid-grid{
-	padding-right: 45px !important;
-	padding-left: 45px !important;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
 }
 .grid-box2{
 	display: grid;
-	grid-template-columns: repeat(3, minmax(250px , 409px));
+	grid-template-columns: repeat(3, minmax(250px , 420px));
 	grid-template-rows: repeat(2, minmax(150px , 206px));
 	grid-gap: 12px;
 }
 .items-grid{
-	background-color: #eee;
+	background-color: #fff;
 	border-radius: 10px;
 	width: 100%;
 	height: 100%;
+}
+.items-grid:hover{
+	background-color: #eee;
 }
 .grid-item-font{
 	font-size: 25px;
@@ -311,8 +327,8 @@ a.nav-link.text-capitalize{
 }
 #footer{
 	background-color: #47747E;
-	padding-left: 70px !important;
-	padding-right: 70px !important;
+	padding-left: 30px !important;
+	padding-right: 40px !important;
 }
 #footer .row .col-md-3 .container h3{
 	font-size: 24px  !important;
@@ -340,8 +356,8 @@ a.nav-link.text-capitalize{
 }
 .footer{
 	background-color: #628289;
-	padding-right: 80px !important;
-	padding-left: 80px !important;
+	padding-right: 40px !important;
+	padding-left: 40px !important;
 }
 .footer footer > div h1{
 	font-size: 40px;
@@ -387,6 +403,9 @@ a.nav-link.text-capitalize{
 	.slick-next:before{
 		left: -180px;
 		bottom: -190px;
+	}
+	#grid-box{
+		justify-content: center !important;
 	}
 	.grid-box2{
 	display: grid;
